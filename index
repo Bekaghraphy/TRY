@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hesham Abdelhamed | Portfolio</title>
+
+  <!-- Font & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Page Overlay -->
+  <div class="page-overlay"></div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="logo">
+      <span class="logo-mark"></span>
+      <span class="logo-text">Hesham<span>Portfolio</span></span>
+    </div>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <!-- Kenburns Slideshow Background -->
+    <div class="hero-slideshow">
+      <div class="hero-slide active" style="background-image:url('https://images.pexels.com/photos/6898859/pexels-photo-6898859.jpeg?auto=compress&cs=tinysrgb&w=1600');"></div>
+      <div class="hero-slide" style="background-image:url('https://images.pexels.com/photos/6898852/pexels-photo-6898852.jpeg?auto=compress&cs=tinysrgb&w=1600');"></div>
+      <div class="hero-slide" style="background-image:url('https://images.pexels.com/photos/6898851/pexels-photo-6898851.jpeg?auto=compress&cs=tinysrgb&w=1600');"></div>
+    </div>
+
+    <!-- Dark gradient overlay -->
+    <div class="hero-gradient"></div>
+
+    <!-- Hero content -->
+    <div class="hero-inner">
+      <div class="hero-label">Let’s meet</div>
+      <h1 class="hero-title">
+        I'm <span>Hesham Abdelhamed</span>
+      </h1>
+      <p class="hero-subtitle">
+        Video Editor · Filmmaker · Creative Storyteller
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View Work</a>
+        <a href="#contact" class="btn ghost">Say Hello</a>
+      </div>
+
+      <div class="hero-social">
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+        <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <span class="line"></span>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section section-dark reveal">
+    <div class="section-inner">
+      <div class="section-label">01 / About Me</div>
+      <h2 class="section-title">Creative mind with a cinematic eye.</h2>
+
+      <div class="about-layout">
+        <div class="about-text">
+          <p>
+            I craft cinematic visuals, short stories, and branded content that connect with real people.
+            From concept to final cut, I love turning ideas into images that stay in memory.
+          </p>
+          <p>
+            My work spans commercials, documentaries, and social media content — all focused on strong storytelling,
+            rhythm, and emotion in every frame.
+          </p>
+        </div>
+
+        <div class="about-skills">
+          <div class="skill">
+            <div class="skill-header">
+              <span>Video Editing</span>
+              <span>95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width:95%;"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-header">
+              <span>Cinematography</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width:90%;"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-header">
+              <span>Storytelling</span>
+              <span>92%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width:92%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="section section-light reveal">
+    <div class="section-inner">
+      <div class="section-label">02 / Projects</div>
+      <h2 class="section-title">Selected work & visual experiments.</h2>
+      <p class="section-intro">
+        A mix of commercial work, personal explorations, and storytelling formats crafted for brands and people.
+      </p>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-thumb" style="background-image:url('https://images.pexels.com/photos/6898850/pexels-photo-6898850.jpeg?auto=compress&cs=tinysrgb&w=1600');"></div>
+          <div class="project-content">
+            <h3 class="project-title">Neon City Stories</h3>
+            <p class="project-meta">Short Film / Edit · Color</p>
+            <p class="project-text">
+              Fast-paced edit built around city lights, motion, and character moments.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb" style="background-image:url('https://images.pexels.com/photos/6898853/pexels-photo-6898853.jpeg?auto=compress&cs=tinysrgb&w=1600');"></div>
+          <div class="project-content">
+            <h3 class="project-title">Brand in Motion</h3>
+            <p class="project-meta">Commercial / Social</p>
+            <p class="project-text">
+              Vertical edits tailored for social platforms with dynamic typography and transitions.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb" style="background-image:url('https://images.pexels.com/photos/6898856/pexels-photo-6898856.jpeg?auto=compress&cs=tinysrgb&w=1600');"></div>
+          <div class="project-content">
+            <h3 class="project-title">Documentary Frames</h3>
+            <p class="project-meta">Doc / Human Story</p>
+            <p class="project-text">
+              Intimate visuals focused on real faces, gestures, and emotional beats.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb" style="background-image:url('https://images.pexels.com/photos/6898854/pexels-photo-6898854.jpeg?auto=compress&cs=tinysrgb&w=1600');"></div>
+          <div class="project-content">
+            <h3 class="project-title">Experimental Cuts</h3>
+            <p class="project-meta">Personal / Visual Lab</p>
+            <p class="project-text">
+              Rhythm experiments, sound-driven cuts, and AI-assisted visual concepts.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section section-dark reveal">
+    <div class="section-inner">
+      <div class="section-label">03 / Contact</div>
+      <h2 class="section-title">Let’s talk about your next project.</h2>
+      <p class="section-intro">
+        Share a brief about your idea, brand, or story. I’ll get back to you with concepts, mood, and next steps.
+      </p>
+
+      <div class="contact-layout">
+        <div class="contact-info">
+          <h3>Direct contact</h3>
+          <p><strong>Email:</strong> hello@hesham-portfolio.com</p>
+          <p><strong>Location:</strong> Riyadh, Saudi Arabia</p>
+          <p><strong>Available for:</strong> Freelance · Remote · Collaborations</p>
+        </div>
+
+        <form class="contact-form">
+          <div class="form-row">
+            <input type="text" placeholder="Your name" required>
+          </div>
+          <div class="form-row">
+            <input type="email" placeholder="Your email" required>
+          </div>
+          <div class="form-row">
+            <input type="text" placeholder="Subject (optional)">
+          </div>
+          <div class="form-row">
+            <textarea rows="4" placeholder="Tell me about your project" required></textarea>
+          </div>
+          <button type="submit" class="btn primary full">Send Message</button>
+          <p class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Hesham Abdelhamed. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
